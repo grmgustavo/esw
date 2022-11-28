@@ -33,7 +33,7 @@ function listar() {
 const listar_por_categoria = (categoria) =>{
     return produtos.find((item) => item[`${categoria}` === categoria])
 }
-
+ 
 const listar_por_valor = (valor_minimo, valor_maximo) =>{
     return 'Valor retornado'
-}
+} 
