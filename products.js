@@ -30,5 +30,7 @@ function listar() {
     })
 }
 
-
+const listar_por_categoria = (categoria) =>{
+    return produtos.find((item) => item[`${categoria}` === categoria])
+}
 
