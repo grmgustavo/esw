@@ -18,7 +18,7 @@ const produtos = [
     },
     {
         nome: "Lapiseira Pentel",
-        categoria: "Escolar",
+        categoria: "Escola r",
         valor: 7.50
     },
 ]
